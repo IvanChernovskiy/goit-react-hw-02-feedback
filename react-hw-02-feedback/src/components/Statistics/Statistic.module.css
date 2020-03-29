@@ -1,0 +1,28 @@
+.statistics {
+  width: 300px;
+  margin: 0 auto 20px;
+  text-align: center;
+  border: 1px solid #e7ecf2;
+  font-family: sans-serif;
+}
+
+.stat__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 20%;
+  height: 72px;
+}
+
+.percentage,
+.label {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
